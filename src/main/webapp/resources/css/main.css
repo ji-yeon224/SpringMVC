@@ -1,0 +1,52 @@
+table {
+  border-collapse: collapse;
+  width: 40%;
+  margin:50px;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+tfoot{
+	background-color: #f9d939;
+	font-weight: bold;
+}
+
+input[type=text]{
+	float:left;
+	width:150px;
+	border-width: 1px;
+    padding: 2px;
+	
+}
+input[type=number]{
+	float:left;
+	width:100px;
+	border-width: 1px;
+    padding: 2px;
+	
+}
+
+input[type=submit]{
+	margin-left:10px;
+	float:left;
+	display:block;
+	width:100px;
+	
+}
+
+.error{
+	font-size:small;
+	color:red;
+	float:left;
+}
+
